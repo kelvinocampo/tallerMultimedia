@@ -1,0 +1,89 @@
+.section1 {
+    background-image: url('../assets/images/cabecera.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8em 6em 12em;
+
+    /* height: 40vh; */
+    display: grid;
+
+    place-items: center;
+}
+
+.section1 div {
+    width: 50%;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.suscribe button {
+    padding: 1.2em 2.4em;
+    border: none;
+    background-color: #e8481c;
+    color: #fff;
+}
+
+.suscribe input {
+    height: 3em;
+    width: 24em;
+    outline: none;
+}
+
+.prom .text {
+    font-size: 2em;
+    color: #fff;
+}
+
+.suscribe input::placeholder {
+    color: gray;
+    font-size: 1.2em;
+    text-align: start;
+}
+
+.prom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #24282b;
+    padding: 1.4em 8em;
+}
+
+.techs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+}
+
+article {
+    width: 30%;
+    display: flex;
+    gap: 1.2em;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+article p {
+    width: 90%;
+}
+
+.img {
+    width: clamp(30%, 30%, 30%);
+}
+
+.img img {
+    width: clamp(100%, 100%, 100%);
+}
