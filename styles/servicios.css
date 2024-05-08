@@ -1,0 +1,54 @@
+.articleImg {
+    background-image: url('../assets/images/891.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 15rem;
+    width: 100%;
+}
+
+.articleBlack {
+    background-color: #35424a;
+    color: #fff;
+}
+
+.articleGray {
+    border: 1px solid #d9d9d9;
+    background-color: #e6e6e6;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.content div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+article {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 12rem;
+    width: 20%;
+    padding: 1rem;
+}
+
+#article {
+    padding: 0;
+}
