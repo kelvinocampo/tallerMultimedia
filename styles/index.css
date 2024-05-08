@@ -1,13 +1,12 @@
 .section1 {
     background-image: url('../assets/images/cabecera.jpg');
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     padding: 8em 6em 12em;
 
     /* height: 40vh; */
     display: grid;
-
     place-items: center;
 }
 
@@ -28,36 +27,6 @@ h2 {
     margin: 10px;
 }
 
-.suscribe button {
-    padding: 1.2em 2.4em;
-    border: none;
-    background-color: #e8481c;
-    color: #fff;
-}
-
-.suscribe input {
-    height: 3em;
-    width: 24em;
-    outline: none;
-}
-
-.prom .text {
-    font-size: 2em;
-    color: #fff;
-}
-
-.suscribe input::placeholder {
-    color: gray;
-    font-size: 1.2em;
-    text-align: start;
-}
-
-.prom {
-    display: flex;
-    justify-content: space-between;
-    background-color: #24282b;
-    padding: 1.4em 8em;
-}
 
 .techs {
     width: 100%;
