@@ -15,13 +15,30 @@
     padding: 2rem 0;
 }
 
-.content .section1 {
+.content .section1,form {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: .8rem;
 }
+form{
+    width: 100%;
+    justify-content: center;
+    gap: .4rem;
+}
 
+form input{
+    /* width: 100%; */
+    outline: none;
+    height: 40px;
+}
+form input[type='submit']{
+    background-color: #e8481c;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
 .aside {
     width: 100%;
     height: 12rem;
